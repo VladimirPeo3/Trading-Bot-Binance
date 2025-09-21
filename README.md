@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 # 🤖 Trading Bot Binance
 
 Bot de trading automatizado para criptomonedas en Binance, diseñado para operar pares USDT utilizando señales técnicas como RSI y EMAs. Incluye un menú interactivo, control de riesgo, seguimiento de posiciones, y opciones manuales para una experiencia flexible y robusta.
