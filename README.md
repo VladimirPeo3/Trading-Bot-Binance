@@ -1,10 +1,10 @@
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-
 # 🤖 Trading Bot Binance
 
-Bot de trading automatizado para criptomonedas en Binance, diseñado para operar pares USDT utilizando señales técnicas como RSI y EMAs. Incluye un menú interactivo, control de riesgo, seguimiento de posiciones, y opciones manuales para una experiencia flexible y robusta.
+Bot de trading automatizado para criptomonedas en Binance, diseñado para operar automaticamente pares USDT utilizando señales técnicas como RSI y EMAs. Incluye un menú interactivo, control de riesgo, seguimiento de posiciones, y opciones manuales para una experiencia flexible y robusta.
 
 ---
 
@@ -53,6 +53,7 @@ Controla el bot desde consola con opciones como:
 
 Para que el bot se conecte a tu cuenta de Binance, necesitas una API Key y Secret. Puedes generarlas desde [Binance API Management](https://www.binance.com/es/my/settings/api-management) y luego configurarlas en tu archivo `trader.py`:
 
+
 ```python
 import ccxt
 
@@ -61,3 +62,5 @@ exchange = ccxt.binance({
     'secret': 'TU_API_SECRET',
     'enableRateLimit': True
 })
+
+---
