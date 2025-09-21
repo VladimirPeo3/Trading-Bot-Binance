@@ -7,6 +7,7 @@ from indicators import calculate_rsi, calculate_ema
 import ccxt
 
 # Cargar todos los pares USDT disponibles en Binance
+exchange.options['fetchCurrencies'] = False
 markets = exchange.load_markets()
 SYMBOLS = [symbol for symbol in markets if symbol.endswith('/USDT') and 'DOWN' not in symbol and 'UP' not in symbol]
 
@@ -55,3 +56,4 @@ def run_bot():
 
 if __name__ == "__main__":
     run_bot()
+
